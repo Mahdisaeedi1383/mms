@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333;
+    margin: 0;
+}
+
+.cradle {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+
+.ball {
+    width: 50px;
+    height: 50px;
+    background-color: #ff0000;
+    border-radius: 50%;
+    margin: 0 5px;
+    position: relative;
+    transform-origin: top center;
+}
+
+.ball-left {
+    animation: swing-left 2s ease-in-out infinite;
+}
+
+.ball-right {
+    animation: swing-right 2s ease-in-out infinite;
+}
+
+@keyframes swing-left {
+    0% {transform: rotate(45deg);}
+    25% {transform: rotate(-45deg);}
+    50% {transform: rotate(45deg);}
+    75% {transform: rotate(-45deg);}
+    100% {transform: rotate(45deg);}
+}
+
+@keyframes swing-right {
+    0% {transform: rotate(-45deg);}
+    25% {transform: rotate(45deg);}
+    50% {transform: rotate(-45deg);}
+    75% {transform: rotate(45deg);}
+    100% {transform: rotate(-45deg);}
+}

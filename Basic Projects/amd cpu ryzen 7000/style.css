@@ -1,0 +1,66 @@
+@font-face {
+
+    font-family: tahoma ;
+    src: url(W\ tahoma\ .ttf);
+}
+
+*{
+    direction: rtl;
+    background-color: #636e72;
+    font-family: tahoma;
+}
+
+header {
+    display: block;
+    text-align: center;
+    background-color: #8395a7;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.header {
+    background-color: #8395a7;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+    background-color: #8395a7;
+    color: black;
+}
+
+
+ul {
+    display: inline-block;
+    list-style-type: circle;
+    background-color: #8395a7;
+    color: white;
+    border-radius: 20px;
+}
+
+ul li {
+        display: inline-block;
+        list-style-type: circle;
+        background-color: #8395a7;
+        color: white;
+        border-radius: 20px;
+        padding: 10px;
+}
+
+h2{
+    display: inline-block;
+    background-color: #636e72;
+}
+
+.img {
+    width: 1300px;
+    height: 500px;
+    display: block;
+    margin: 100px auto;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 20px;
+}

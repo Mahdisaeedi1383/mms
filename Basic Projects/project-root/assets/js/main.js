@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){const musicList = document.getElementById("music-list")})

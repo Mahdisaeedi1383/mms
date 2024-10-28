@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: tahoma;
+    src: url(../font/W\ tahoma\ .ttf);
+}
+
+body {
+    font-family:tahoma;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4caf50;
+    color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    padding: 5px;
+}
+
+.stats {
+    display: flex;
+}
+
+.stats p {
+    margin-left: 20px;
+}
+
+#hero {
+    position: relative;
+}
+
+.carousel img {
+    width: 100%;
+}
+
+#latest-courses {
+    padding: 20px;
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(250,1fr));
+    gap: 20px;
+}
+
+.course-item {
+    border: 1px solid #777;
+    padding: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* responsive design */
+
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin-right: 0;
+        margin-top: 10px;
+    }
+}

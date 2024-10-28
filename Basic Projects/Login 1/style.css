@@ -1,0 +1,24 @@
+*{
+    direction: ltr;
+    background-color: #555555;
+    font-size: 20px;
+}
+.conterainer .formlogin {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    
+}
+.formlogin input {
+    background-color: #fff;
+    border: 2px solid #747474;
+    border-radius: 8px;
+    height: 40px;
+    width: 50%;
+}
+
+.formlogin input:focus{
+    background-color: #c9c9c9;
+    color: black;
+}
